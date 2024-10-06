@@ -1,2 +1,21 @@
 # Google-login-setup-documentation
-A detailed step on how to setup login with google
+- Go to google developer console
+- Ensure you create a new project(if you have setup google login on an initial project.) because it seems google oauth accepts one setup per project
+- click on OAuth consent screen
+- select external then click create
+- enter app-name, user-support-email app-logo(if available), authorized-domain(enter website domain.Note app domain can be blank), developer contact info(emai)
+- click save and continue
+- click on add or remove scope
+- select '.../auth/userinfo.profile' and '.../auth/userinfo.email'
+- click update
+- click save and continue
+- skip test user (just click save and conitinue)
+- click back to dashboard
+-  click on credentials
+- click on create credentials
+- select OAuth client ID
+- Application type (web application)
+- name (name to show the user)
+- enter your Authorized JavaScript origins and Authorized redirect URIs
+- click create
+-  Download your credentials.
